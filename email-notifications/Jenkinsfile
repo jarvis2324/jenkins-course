@@ -1,6 +1,6 @@
 node {
 
-  // config // h
+  // config // hii
   def to = emailextrecipients([
           [$class: 'CulpritsRecipientProvider'],
           [$class: 'DevelopersRecipientProvider'],
