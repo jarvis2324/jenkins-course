@@ -6,7 +6,7 @@ node {
         git url: 'https://github.com/wardviaene/gs-gradle.git'
 
     stage 'Artifactory configuration'
-        rtGradle.tool = 'gradle' // Tool name from Jenkins configuration
+        // rtGradle.tool = 'gradle' // Tool name from Jenkins configuration
         rtGradle.deployer repo:'default-gradle-dev-local',  server: server
         rtGradle.resolver repo:'default-gradle-dev', server: server
 
